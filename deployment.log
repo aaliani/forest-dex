@@ -1,0 +1,146 @@
+Starting migrations...
+======================
+> Network name:    'neonlabs'
+> Network id:      245022926
+> Block gas limit: 260057650590124 (0xec8563e271ac)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x565a6196f51c2f016ef2fe4a97dfcacf3f559aef60018fe5968524837e0e3127
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xCdab58F0d7E50e021F4f820983b56978aE0F9FAa
+   > block number:        146993349
+   > block timestamp:     1657454241
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             14555.74885055937632
+   > gas used:            20063500 (0x132250c)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          8.8894346275 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:        8.8894346275 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'UniswapV2Factory'
+   ----------------------------
+   > transaction hash:    0x7b817726cbabf9ccb1aa83db16dd51b555564faef7ab1bd6ec8cd986f396a093
+   > Blocks: 12           Seconds: 4
+   > contract address:    0xA38fb9c0f0d0c0302a49Ad0e35cD227433c9d1bf
+   > block number:        146993374
+   > block timestamp:     1657454251
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             14481.33739528177632
+   > gas used:            167932040 (0xa027088)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          74.4048093026 ETH
+
+
+   Deploying 'UniswapV2Router02'
+   -----------------------------
+   > transaction hash:    0x47e8d62642f3e196dd75c8f3faea8a233aab9664694c2b89b209f19f8b6ee97c
+   > Blocks: 12           Seconds: 4
+   > contract address:    0xd849919Fc104EC7F98C942E24940612Eb56721a4
+   > block number:        146993463
+   > block timestamp:     1657454284
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             13908.52693319007632
+   > gas used:            181517460 (0xad1bc94)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          80.4240334149 ETH
+
+
+   Deploying 'ForestToken'
+   -----------------------
+   > transaction hash:    0xd13effef2552d3e39fd541f41f886ebe49d4c2e5f3c63d7e20706e61ee88023f
+   > Blocks: 11           Seconds: 4
+   > contract address:    0x81FD044922b5C20769eE71E7854187a9D650E2ef
+   > block number:        146993479
+   > block timestamp:     1657454291
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             13859.56405929517632
+   > gas used:            110509460 (0x6963d94)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          48.9628738949 ETH
+
+
+   Deploying 'Farmer'
+   ------------------
+   > transaction hash:    0x8cd3e6fa1fb156b5787b6e9a24e3a218c37e46e7dce186b0538a85c1829d0a93
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x7C74f1786Db5Bf5B3D245A72d11d9E9C8410a47c
+   > block number:        146993494
+   > block timestamp:     1657454296
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             13811.04919500567632
+   > gas used:            109498300 (0x686cfbc)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          48.5148642895 ETH
+
+
+   Deploying 'Plantation'
+   ----------------------
+   > transaction hash:    0xf596757c500cbe14bc617d620ffd1a46eea24c15ae6f7fc31994e82ed3b82a85
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xd4A4B15B152919D06A631d112955e5105cBA9110
+   > block number:        146993514
+   > block timestamp:     1657454304
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             13778.95563994987632
+   > gas used:            72420320 (0x4510be0)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          32.0869090808 ETH
+
+
+   Deploying 'SeedMaker'
+   ---------------------
+   > transaction hash:    0x3309c173350ef307f7883db243f443f331b85252ac3c917c89dd09fbda7c1b8a
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x6fD37639ad8079b3479B418fB953F8165d326ddA
+   > block number:        146993528
+   > block timestamp:     1657454310
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             13747.85595944077632
+   > gas used:            70192140 (0x42f0c0c)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          31.0996805091 ETH
+
+
+   Deploying 'Migrator'
+   --------------------
+   > transaction hash:    0x943d5930234ceb15a03aade8915b71c0f1e1610391a36e10bb13526d109b52d6
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x635c632433042d9f94dd6E3A176340Af753d7DAA
+   > block number:        146993547
+   > block timestamp:     1657454317
+   > account:             0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+   > balance:             13730.53671695547632
+   > gas used:            39074620 (0x2543b3c)
+   > gas price:           443.065 gwei
+   > value sent:          0 ETH
+   > total cost:          17.3125965103 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:      332.8057670021 ETH
+
+Summary
+=======
+> Total deployments:   8
+> Final cost:          341.6952016296 ETH
