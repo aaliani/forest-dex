@@ -33,7 +33,7 @@
  );
  
  const privateKey =
-   "0xb615cff7f287abe51a233f3327b00ce954ee75e5bc4458706f44ef42a03a8fce"; // Specify your private key here
+   "XZY"; // Specify your private key here
  
  module.exports = {
    /**
@@ -51,7 +51,7 @@
        provider: () => {
          return new HDWalletProvider(privateKey, provider);
        },
-       from: "0x6d35870cBA88dD44BB29EADC911A7a7817849e0d", //0x6d35870cBA88dD44BB29EADC911A7a7817849e0d
+       from: "0xXZY", // Add your address here
        network_id: "*",
        gas: 300000000,
        gasPrice: 443065000000,
