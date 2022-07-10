@@ -1,2 +1,5 @@
 /node_modules/
 /build/
+/flattened
+*.log
+truffle-config.js

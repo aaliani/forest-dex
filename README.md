@@ -1,16 +1,17 @@
-# SushiSwap 🍣
+# Forest DEX
+Forest DEX is where all your transactions help save the planet
 
-https://app.sushiswap.org. Feel free to read the code. More details coming soon.
 
 ## Deployed Contracts / Hash
 
-- SushiToken - https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
-- MasterChef - https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd
-- (Uni|Sushi)swapV2Factory - https://etherscan.io/address/0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac
-- (Uni|Sushi)swapV2Router02 - https://etherscan.io/address/0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f
-- (Uni|Sushi)swapV2Pair init code hash - `e18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303`
-- SushiBar - https://etherscan.io/address/0x8798249c2e607446efb7ad49ec89dd1865ff4272
-- SushiMaker - https://etherscan.io/address/0x54844afe358ca98e4d09aae869f25bfe072e1b1a
+- Migrations - https://neonscan.org/tx/0x565a6196f51c2f016ef2fe4a97dfcacf3f559aef60018fe5968524837e0e3127
+- Factory - https://neonscan.org/tx/0x7b817726cbabf9ccb1aa83db16dd51b555564faef7ab1bd6ec8cd986f396a093
+- Router02 - https://neonscan.org/tx/0x47e8d62642f3e196dd75c8f3faea8a233aab9664694c2b89b209f19f8b6ee97c
+- ForestToken - https://neonscan.org/tx/0xd13effef2552d3e39fd541f41f886ebe49d4c2e5f3c63d7e20706e61ee88023f
+- Farmer - https://neonscan.org/tx/0x8cd3e6fa1fb156b5787b6e9a24e3a218c37e46e7dce186b0538a85c1829d0a93
+- Plantation - https://neonscan.org/tx/0xf596757c500cbe14bc617d620ffd1a46eea24c15ae6f7fc31994e82ed3b82a85
+- SeedMaker - https://neonscan.org/tx/0x3309c173350ef307f7883db243f443f331b85252ac3c917c89dd09fbda7c1b8a
+- Migrator - https://neonscan.org/tx/0x943d5930234ceb15a03aade8915b71c0f1e1610391a36e10bb13526d109b52d6
 
 ## License
 
